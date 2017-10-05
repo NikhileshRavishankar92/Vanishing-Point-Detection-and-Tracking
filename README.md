@@ -20,3 +20,6 @@ in an indoor setting (corridor).
 <p align="center">
   <img width="460" height="300" src="./img_pipeline_5.jpg">
 </p>
+
+# Setup Instructions
+The file Single_image_test.py takes in an input image and determines the median vanishing point estimated by computing the intersection point of several detected line segements.
