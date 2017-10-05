@@ -2,7 +2,21 @@
 Detects vanishing points in an image
 
 Parallel lines, not perpendicular to the plane of the camera, intersect at a point as a consequnce of perspective projection. 
-The intersection point may not always be in the image plane. This program attempts to detect such an intersection point (vanishing point) 
+The intersection point may not always be in the image plane. This module attempts to detect such an intersection point (vanishing point) 
 in an indoor setting (corridor).
 
-![Alt text](https://github.com/NikhileshRavishankar92/Vanishing_point/edit/master/img_pipeline_1.jpg)
+<p align="center">
+  <img width="460" height="300" src="./img_pipeline_1.jpg">
+</p>
+<p align="center">
+  <img width="460" height="300" src="./img_pipeline_2.jpg">
+</p>
+<p align="center">
+  <img width="460" height="300" src="./img_pipeline_3.jpg">
+</p>
+<p align="center">
+  <img width="460" height="300" src="./img_pipeline_4.jpg">
+</p>
+<p align="center">
+  <img width="460" height="300" src="./img_pipeline_5.jpg">
+</p>
