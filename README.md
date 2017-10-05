@@ -22,4 +22,4 @@ in an indoor setting (corridor).
 </p>
 
 # Setup Instructions
-The file Single_image_test.py takes in an input image and determines the median vanishing point estimated by computing the intersection point of several detected line segements.
+The file Single_image_test.py takes in an input image and determines the median vanishing point estimated by computing the intersection point of several detected line segements. Make sure you download the relevant dependencies: 'Robust_may_13_tuning.py', 'Kalman_Filter.py', 'intersecion_library.py'
