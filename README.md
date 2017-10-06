@@ -25,5 +25,10 @@ in an indoor setting (corridor).
 The file Single_image_test.py takes in an input image and determines the median vanishing point estimated by computing the intersection point of several detected line segements. Make sure you download the relevant dependencies: 'Robust_may_13_tuning.py', 'Kalman_Filter.py', 'intersecion_library.py'
 
 For using the algorithm to track vanishing point across frames, look at the format of the video_tracking.py file. The blue circle indicates the vanishing point estimated from measurement and the green circle indicates the vanishing point estimated by the State Estimation filter (EKF). The two images below represent consecutive image frames, notice how the lack of prominent lines disrupts the measurment estimate (represented by the blue circle) on the RHS image but the EKF estimate (represented by the green circle) hold steady in the face of uncertainty.
-
+<p align="left">
+  <img width="460" height="300" src="./EKF_1.png">
+</p>
+<p align="right">
+  <img width="460" height="300" src="./EKF_2.png">
+</p>
 
