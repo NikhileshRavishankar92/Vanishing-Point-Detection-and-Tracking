@@ -22,7 +22,7 @@ in an indoor setting (corridor).
 </p>
 
 # Setup Instructions
-The file Single_image_test.py takes in an input image and determines the median vanishing point estimated by computing the intersection point of several detected line segements. Make sure you download the relevant dependencies: 'Robust_may_13_tuning.py', 'Kalman_Filter.py', 'intersecion_library.py'
+The file Single_image_test.py takes in an input image and determines the median vanishing point estimated by computing the intersection points of several detected line segements. Make sure you download the relevant dependencies: 'Robust_may_13_tuning.py', 'Kalman_Filter.py', 'intersecion_library.py'
 
 For using the algorithm to track vanishing point across frames, look at the format of the video_tracking.py file.The two images below represent consecutive image frames, notice how, in the second image, the lack of prominent lines disrupts the measurment estimate of the vanishing point (represented by the blue circle) but the EKF estimate (represented by the green circle) holds steady in the face of uncertainty.
 ![alt-text-1](./EKF_1.png) ![alt-text-2](./EKF_2.png)
